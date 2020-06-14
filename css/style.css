@@ -1,0 +1,37 @@
+#axis:hover .globus {
+    transform: translate(350px, 350px);
+    -webkit-transform: translate(350px, 350px);
+    -o-transform: translate(350px, 350px);
+    -moz-transform: translate(350px, 350px);
+    transition: ease .33s;
+    margin: 0;
+}
+
+#axis:hover .globus1 {
+    transform: translate(350px, 350px);
+    -webkit-transform: translate(350px, 275px);
+    -o-transform: translate(350px, 200px);
+    -moz-transform: translate(350px, 200px);
+    transition: ease .33s;
+    margin: 0;
+}
+
+#axis:hover .globus2 {
+    transform: translate(350px, 350px);
+    -webkit-transform: translate(350px, 200px);
+    -o-transform: translate(350px, 350px);
+    -moz-transform: translate(350px, 350px);
+    transition: ease .33s;
+    margin: 0;
+}
+
+.globus,
+.globus1,
+.globus2 {
+    margin: 30px;
+    padding: 25px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #000;
+}
